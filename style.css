@@ -1,0 +1,59 @@
+main {
+    background-color: rgb(231, 231, 204);
+    display: grid;
+    justify-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+div {
+    display: grid;
+    justify-items: center;
+    background-color: white;
+    width: 95vw;
+}
+div > * {
+    width: 80vw;
+    text-align: center;
+}
+
+ul { 
+    width: 80vw;
+}
+
+ul > li {
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 600px) {
+
+    ul { 
+        width: 40vw;
+    }
+
+}
+
+.quote {
+    width: 80vw;
+    font-style: italic;
+}
+@media screen and (min-width: 600px) {
+
+    .quote {
+    width: 40vw;
+    }
+
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.wiki {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
